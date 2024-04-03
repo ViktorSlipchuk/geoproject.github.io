@@ -1,0 +1,122 @@
+body {
+    font-family: "Verdana", sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+.where-to-buy a {
+    color: #D2691E;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+h1 {
+    margin-top: 0;
+}
+
+header h1 a {
+    color: white; /* Колір тексту */
+    text-decoration: none; /* Видалити риску */
+}
+
+.highlight {
+    background-color: #93a267; /* Змініть на ваш вибір кольору */
+    border-radius: 10px;
+    font-family: "Verdana", sans-serif;
+    padding: 5px 10px;
+}
+
+
+
+h2 {
+    color: #485935;
+    text-align: center;
+    padding: 10px; /* Додаємо невеликий відступ для поліпшення вигляду */
+    font-family: "Verdana", sans-serif;
+    padding: 40px;
+    font-size: 40px;
+}
+
+
+ul.g {
+    list-style-type: none; /* Відключаємо стандартний маркер */
+    padding: 0; 
+    font-family: "Verdana", sans-serif; 
+    text-align: left;
+    color: #485935;
+    font-size: 18px;
+}
+#values-and-benefits {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.values-and-benefits__container {
+    display: flex;
+}
+.values-and-benefits-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    gap: 15px;
+}
+.event-item {
+    padding: 10px;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+
+.info-item {
+    max-width: 350px;
+    font-size: 19px; 
+}
+.values-subtitle {
+    font-size: 25px;
+    color: #93a267;
+    font-family: 'Inter';
+}
+.values-and-benefits__title {
+    margin-top: 64px;
+    margin-bottom: 0;
+    margin-left: -64px;
+    color: #93a267;
+    font-family: "Cormorant SC", serif;
+    font-size: 64px;
+    font-weight: 900;
+    max-width: 850px;
+}
+.proccess-produces__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    
+}
+.proccess-produces__text {
+    padding: 19px;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+h6 {
+    font-size: 22px;
+    font-family: 'Inter';
+    margin: 0;
+}
+.proccess-produces__text > p {
+    font-size: 20px;
+    max-width: 600px;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+.where-to-buy__text {
+    max-width: 1000px;
+    margin: 0 auto;
+    font-size: 19px;
+    margin-top: -30px;
+}

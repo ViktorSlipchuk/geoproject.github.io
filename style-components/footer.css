@@ -1,0 +1,39 @@
+footer {
+    background-color: #333; /* Темний фон */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+    margin-top: 70px;
+}
+.footer-content {
+    margin: 0 auto;
+    max-width: 1200px;
+    display: flex;
+    gap: 140px;
+    align-items: start;
+}
+.social-media, .contact-info, .quick-links {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 13px;
+}
+.contact-info, .quick-links {
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+.social-media a {
+    color: #fff;
+    font-family: 'Poppins';
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.social-media__title, .contact-info__title, .quick-links__title{
+    margin-bottom: 15px;
+    font-size: 26px;
+    font-family: "Cormorant SC";
+    font-weight: 400;
+}

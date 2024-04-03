@@ -1,0 +1,124 @@
+body {
+    font-family: "Verdana", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    max-width: 1400px; /* Максимальна ширина контейнера */
+    margin: 0 auto; /* Центрування контейнера на сторінці */
+    padding: 50px; /* Відступи всередині контейнера */
+    font-family: "Verdana", sans-serif;
+
+    color: #485935;
+    font-size: 18px;
+    
+}
+
+h2 {
+    color: #485935;
+    text-align: center;
+    padding: 10px; /* Додаємо невеликий відступ для поліпшення вигляду */
+    font-family: "Verdana", sans-serif;
+    padding: 40px;
+    font-size: 40px;
+}
+
+.highlight {
+            background-color: #93a267; /* Змініть на ваш вибір кольору */
+            border-radius: 10px;
+            font-family: "Verdana", sans-serif;
+            padding: 5px 10px;
+}
+
+.section {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 20px; /* Відступи */
+    margin-bottom: 20px; /* Відступ вниз */
+    border-radius: 5px; /* Закруглені кути */
+}
+
+#values-and-benefits img {
+    width: 147px; /* Змінюйте ширину зображення за потребою */
+    height: 220px; /* Автоматично визначає висоту відповідно до ширини */
+}
+
+.values-and-benefits__con{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.g {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.block-title {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+.event-item {
+    max-width: 24px;
+    max-height: 24px;
+}
+
+ul.g {
+    list-style-type: none; /* Відключаємо стандартний маркер */
+    padding: 0; 
+    font-family: "Verdana", sans-serif; 
+    text-align: left;
+    color: #485935;
+    font-size: 18px;
+}
+.active-info {
+    margin-left: 35px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.product-description p{
+    font-family: "Verdana", sans-serif; 
+    color: #485935;
+    font-size: 18px;
+}
+.types-of-dishes {
+    max-width: max-content;
+    margin: 0 auto;
+}
+.types-of-dishes__container {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+.dishes__title {
+    margin: 64px;
+    color: #93a267;
+    font-family: "Cormorant SC", serif;
+    font-size: 64px;
+    font-weight: 900;
+}
+.type-dish {
+    padding: 20px;
+    text-align: center;
+    border: 2px solid rgba(0, 0, 0, 0);
+    transition: all 0.4s ease;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.type-dish:hover {
+    border: 2px solid #93a267;
+}
+.type-dish__desc {
+    max-width: 220px;
+    font-size: 17px;
+    margin-bottom: 0;
+}
+.type-dish__title {
+    font-family: 'Inter';
+    font-size: 21px;
+    color: #93a267;
+}

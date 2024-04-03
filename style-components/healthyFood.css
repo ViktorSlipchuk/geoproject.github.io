@@ -1,0 +1,189 @@
+body {
+    font-family: "Verdana", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    color: #485935;
+    text-align: center;
+    padding: 10px;
+    font-family: "Verdana", sans-serif;
+    padding: 50px;
+    padding-top: 0;
+    margin: 0;
+    margin-bottom: -40px;
+    font-size: 40px;
+}
+#classification {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.category img {
+    max-width: 150px;
+    max-height: 150px; 
+    transition: all 0.3s ease;
+}
+.category img:hover {
+    transform: scale(1.1);
+}
+.category {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+#introduction {
+    display: flex;
+    justify-content: start;
+    max-width: 1000px;
+    gap: 60px;
+    margin-top: 60px;
+    margin-left: 60px;
+    margin-bottom: 60px;
+}
+#introduction > p {
+    color: #93a267;
+    font-family: "Cormorant SC", serif;
+    font-size: 64px;
+    font-weight: 900;
+    margin: 0;
+}
+.highlight {
+    background-color: #93a267;
+    border-radius: 10px;
+    font-family: "Verdana", sans-serif;
+    padding: 5px 10px;
+}
+h4 {
+    font-family: "Arial";
+    margin: 0;
+    text-align: center;
+    font-size: 30px;
+    color: #8fb68b;
+}
+.product-categories {
+    max-width: max-content;
+    margin: 0 auto;
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+    align-items: center;
+}
+.values-and-benefits__container {
+    margin: 0 195px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 80px;
+}
+.where-to-buy-widgets {
+    display: flex;
+    gap: 32px;
+}
+#where-to-buy {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.where-to-buy__intro-text {
+    text-align: center;
+    font-size: 26px;
+    max-width: 810px;
+    font-family: 'Arial';
+}
+.place-to-buy__text {
+    max-width: 300px;
+    min-height: 225px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border-top: 2px solid #93a267;
+    border-bottom: 2px solid #93a267;
+    padding: 10px 0;
+
+}
+.place-to-buy__title {
+    font-family: "Arial", serif;
+    margin: 30px 0;
+    font-weight: 100;
+    color: #485935;
+    font-size: 45px;
+    text-align: center;
+}
+.place-to-buy__address, .place-to-buy__inst{
+    font-size: 16px;
+    margin-left: 8px;
+}
+.place-to-buy__inst {
+    color: #485935;
+    font-family: 'Poppins';
+    font-weight: 500;
+    text-decoration: none;
+}
+.place-to-buy__inst:hover {
+    text-decoration: underline;
+}
+strong {
+    color: #485935;
+}
+.place-to-buy-2 {
+    border-top-left-radius: 90px;
+    border-bottom-right-radius: 90px;
+}
+.place-to-buy-1 {
+    border-top-right-radius: 90px;
+    border-bottom-left-radius: 90px;
+}
+.place-to-buy-center {
+    border-radius: 70px;
+}
+.place-to-buy {
+    font-family: "Verdana", sans-serif;
+    text-align: left;
+    color: #485935;
+    font-size: 18px;
+    padding: 20px;
+    color: #000;
+    border: 2px solid rgba(0, 0, 0, 0);
+    transition: all 0.4s ease;
+}
+.place-to-buy:hover  {
+    border: 2px solid #93a267;
+}
+.product-categories {
+    margin: 80px 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 132px;
+}
+.values-and-benefits-list {
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.event-item {
+    max-width: 24px;
+    max-height: 24px;
+}
+.values-title {
+    font-family: 'Inter';
+    color: #000;
+    font-size: 22px;
+}
+.info-item {
+    margin: 8px 32px;
+    font-size: 19px;
+    max-width: 570px;
+}
+.event-item {
+    margin-bottom: -4px;
+    transition: all 0.4s ease 0s;
+}
+.event-item:hover {
+    background-color: rgb(210, 210, 210);
+}
